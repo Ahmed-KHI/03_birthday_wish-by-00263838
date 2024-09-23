@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Birthday Wish Project
 
-## Getting Started
+Overview:
 
-First, run the development server:
+The Birthday Wish project is an interactive web application designed to celebrate birthdays in a fun and engaging way. This project is part of the 30 Days of 30 Projects initiative from the Governor IT Initiative Program, focusing on enhancing my skills in React, animations, and user interaction.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Key Features:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Celebration Mechanism: Users can celebrate by lighting candles and popping balloons, creating a festive atmosphere.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Confetti Animation: Upon completing the celebration actions, vibrant confetti bursts onto the screen, adding a celebratory touch.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+User Interaction: The application allows users to interact with the elements:
 
-## Learn More
+Light Candles: Users click on candle icons to light them up, with visual feedback for each candle lit.
+Pop Balloons: Users click on balloon icons to pop them, with animations indicating the balloons are popped.
 
-To learn more about Next.js, take a look at the following resources:
+Technologies Used:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+React: Utilized for building the UI and managing state.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Framer Motion: Integrated for smooth animations and transitions.
 
-## Deploy on Vercel
+React Icons: Used for dynamic and visually appealing iconography.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Dynamic Importing: Leveraged to load the confetti component only on the client side, optimizing performance.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Conclusion:
+
+This Birthday Wish project showcases my ability to create interactive and animated web applications using React. It effectively combines user engagement with celebratory visuals, setting the stage for more complex projects in the future. This project not only reinforces my coding skills but also enhances my understanding of user experience design.
